@@ -93,7 +93,7 @@ const Box: React.FC = () => {
     {combinedData.map(({ user, post }) => (
       <div
         key={user.id}
-        className="max-w-5xl mx-auto bg-white border border-blue-100 shadow-md rounded-md overflow-hidden p-4 mb-8 md:mb-12 lg:p-6 mt-14" 
+        className="max-w-5xl mx-auto bg-white border border-blue-100 shadow-md rounded-md overflow-hidden p-4 mb-8 md:mb-12 lg:p-6 mt-20" 
         >
         <div className="flex flex-col md:flex-row items-center md:items-start mb-5"> 
           <img
